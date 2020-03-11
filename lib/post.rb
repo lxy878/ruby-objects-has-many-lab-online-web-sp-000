@@ -5,7 +5,9 @@ class Post
     @title = title
   end
 
-  def  
+  def self.all
+    @@all
+  end
 
 
 end
