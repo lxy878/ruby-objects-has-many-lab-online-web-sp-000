@@ -10,6 +10,9 @@ class Song
     @@all
   end
 
+  def artist=(name)
+    name.add_song(self)
+  end
   def artist_name
     @artist.name
   end
