@@ -13,5 +13,6 @@ class Author
     new_post = Post.new(title)
     add_post(new_post)
   end
-  
+
+  def 
 end
