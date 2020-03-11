@@ -5,6 +5,6 @@ class Author
   end
 
   def posts
-    Post.all
+    posts = Post.all.select {|post| post.artist}
   end
 end
