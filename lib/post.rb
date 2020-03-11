@@ -12,7 +12,7 @@ class Post
 
   def author=(name)
     @author = name
-    name.
+    name.posts << self
   end
 
   def author
