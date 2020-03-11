@@ -1,2 +1,4 @@
-class
+class Author
+
   
+end
