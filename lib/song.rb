@@ -11,6 +11,7 @@ class Song
   end
 
   def artist=(name)
+    @artist = name
     name.add_song(self)
   end
   def artist_name
